@@ -4,7 +4,7 @@ Test different uses for the Macropad
 
 ### Built With
 
-- [CircuitPython](https://circuitpython.org/board/adafruit_macropad_rp2040/) version 7.0.0-alpha.5 
+- [CircuitPython](https://circuitpython.org/board/adafruit_macropad_rp2040/) version 7.0.0-alpha.5
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -16,7 +16,6 @@ Test different uses for the Macropad
 ### Installation
 
 - [Loaded CircuitPython](https://learn.adafruit.com/adafruit-macropad-rp2040/circuitpython) to the board
-
 
 <!-- USAGE EXAMPLES -->
 ## Usage
