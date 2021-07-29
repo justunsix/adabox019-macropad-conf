@@ -20,9 +20,20 @@ Test different uses for the Macropad
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+[Enter the REPL](https://learn.adafruit.com/adafruit-macropad-rp2040/the-repl) in Mu. Press `ctrl+c` to get the `>>>` prompt and use commands:
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+```py
+# Check CircuitPython version and modules available
+help()
+help("modules")
+
+# List all pins on the board for use in code
+import board
+dir(board)
+
+# Test printing
+print("Hello, CircuitPython!")
+````
 
 <!-- LICENSE -->
 ## License
