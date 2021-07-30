@@ -25,6 +25,13 @@ Install the [Adafruit CircuitPython Library Bundle](https://circuitpython.org/li
 - Extract the bundle, find the `simpleio.mpy` file and copy it to the `lib` folder in the `CIRCUITPY` drive.
 - Create your own libraries in `.mpy` format using [`mpy-cross`](https://adafruit-circuit-python.s3.amazonaws.com/index.html?prefix=bin/mpy-cross/)
 
+When using VS Code, install dependencies you are using:
+
+```sh
+pip3 install adafruit-circuitpython-simpleio
+
+```
+
 ## Usage
 
 [Enter the REPL](https://learn.adafruit.com/adafruit-macropad-rp2040/the-repl) in Mu. Press `ctrl+c` to get the `>>>` prompt and use commands:
