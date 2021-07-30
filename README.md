@@ -16,9 +16,13 @@ Test different uses for the Macropad
 
 ### Installation
 
-- [Load CircuitPython](https://learn.adafruit.com/adafruit-macropad-rp2040/circuitpython) to the board
-  - This loading installs CircuitPython into the `CIRCUITPY` drive and create directories like `lib` to store libraries.
-- Install the [Adafruit CircuitPython Library Bundle](https://circuitpython.org/libraries) 7.x. Unzip the bundle and copy the library files you need to the `lib` folder in the `CIRCUITPY` drive.
+[Load CircuitPython](https://learn.adafruit.com/adafruit-macropad-rp2040/circuitpython) to the board
+
+- This loading installs CircuitPython into the `CIRCUITPY` drive and create directories like `lib` to store libraries.
+
+Install the [Adafruit CircuitPython Library Bundle](https://circuitpython.org/libraries) 7.x. Unzip the bundle and copy the library files you need to the `lib` folder in the `CIRCUITPY` drive.
+
+- Extract the bundle, find the `simpleio.mpy` file and copy it to the `lib` folder in the `CIRCUITPY` drive.
 
 ## Usage
 
