@@ -23,6 +23,7 @@ Test different uses for the Macropad
 Install the [Adafruit CircuitPython Library Bundle](https://circuitpython.org/libraries) 7.x. Unzip the bundle and copy the library files you need to the `lib` folder in the `CIRCUITPY` drive.
 
 - Extract the bundle, find the `simpleio.mpy` file and copy it to the `lib` folder in the `CIRCUITPY` drive.
+- Create your own libraries in `.mpy` format using [`mpy-cross`](https://adafruit-circuit-python.s3.amazonaws.com/index.html?prefix=bin/mpy-cross/)
 
 ## Usage
 
@@ -39,9 +40,24 @@ dir(board)
 
 # Test printing
 print("Hello, CircuitPython!")
+
+# Check memory available
+import gc
+gc.mem_free()
 ```
 
 Press `ctrl+d` to return to the serial console to see output from your program.
+
+### Restart fresh
+
+ CircuitPython includes a built-in function to erase and reformat the filesystem. `CIRCUITPY` will be erased and reformatted.
+
+```py
+import storage
+storage.erase_filesystem()
+```
+
+
 
 <!-- LICENSE -->
 ## License
