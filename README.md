@@ -4,7 +4,7 @@ Test different uses for the Macropad
 
 ## Built With
 
-- [CircuitPython](https://circuitpython.org/board/adafruit_macropad_rp2040/) version 7.0.0-alpha.5 
+- [CircuitPython](https://circuitpython.org/board/adafruit_macropad_rp2040/) version 7.0.0-alpha.5
 - [Adabox019](https://www.adafruit.com/adabox019)
 
 <!-- GETTING STARTED -->
@@ -64,8 +64,6 @@ import storage
 storage.erase_filesystem()
 ```
 
-
-
 <!-- LICENSE -->
 ## License
 
@@ -76,6 +74,8 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 [JustinTungOnline on GitHub](https://github.com/justintungonline/)
 
-<!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
+## See Also
 
+- [Keys and Events](https://learn.adafruit.com/key-pad-matrix-scanning-in-circuitpython/keys-one-key-per-pin)
+- [Learn Adafruit019](https://learn.adafruit.com/adabox019)
+- [Macropad hotkeys](https://learn.adafruit.com/macropad-hotkeys) project
