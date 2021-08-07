@@ -14,6 +14,10 @@ Test different uses for the Macropad
 
 - [Mu Editor](https://codewith.mu/) (recommended)
 
+or
+
+- [VS Code with CircuitPython extension](https://marketplace.visualstudio.com/items?itemName=joedevivo.vscode-circuitpython). Use the update bundle and reload project libraries to get code completion in VS Code.
+
 ### Installation
 
 [Load CircuitPython](https://learn.adafruit.com/adafruit-macropad-rp2040/circuitpython) to the board
@@ -22,7 +26,7 @@ Test different uses for the Macropad
 
 Install the [Adafruit CircuitPython Library Bundle](https://circuitpython.org/libraries) 7.x. Unzip the bundle and copy the library files you need to the `lib` folder in the `CIRCUITPY` drive.
 
-- Extract the bundle, find the `simpleio.mpy` file and copy it to the `lib` folder in the `CIRCUITPY` drive.
+- Extract the bundle, find the `simpleio.mpy` and `neopixel.mpy` files and copy them to the `lib` folder in the `CIRCUITPY` drive.
 - Create your own libraries in `.mpy` format using [`mpy-cross`](https://adafruit-circuit-python.s3.amazonaws.com/index.html?prefix=bin/mpy-cross/)
 
 When using VS Code, install dependencies you are using:
