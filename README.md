@@ -22,11 +22,25 @@ or
 
 [Load CircuitPython](https://learn.adafruit.com/adafruit-macropad-rp2040/circuitpython) to the board
 
-- This loading installs CircuitPython into the `CIRCUITPY` drive and create directories like `lib` to store libraries.
+#### Library manager
 
-Install the [Adafruit CircuitPython Library Bundle](https://circuitpython.org/libraries) 7.x. Unzip the bundle and copy the library files you need to the `lib` folder in the `CIRCUITPY` drive.
+- This loading installs CircuitPython into the `CIRCUITPY` drive and create directories like `lib` to store libraries OR follow library instructions using [`circup`](https://github.com/adafruit/circup), `circup install`, and `circup update` at [CircuitPython_MacroPad](https://github.com/adafruit/Adafruit_CircuitPython_MacroPad).
 
-- Extract the bundle, find the `simpleio.mpy` and `neopixel.mpy` files and copy them to the `lib` folder in the `CIRCUITPY` drive.
+#### Manual library install
+
+Install the [Adafruit CircuitPython Library Bundle](https://circuitpython.org/libraries) 7.x. Unzip the bundle and copy the library files you need to the `lib` folder in the `CIRCUITPY` drive. Use these libraries:
+
+- `simpleio.mpy`
+- `neopixel.mpy`
+- `adafruit_simple_text_display.mpy`
+- `adafruit_debouncer.mpy`
+- `adafruit_pixelbuf.mpy`
+- folder and files:
+  - `adafruit_hid` 
+  - `adafruit_midi`
+  - `adafruit_display_text`
+  - `adafruit_displayio_layout`
+  - `adafruit_led_animation`
 - Create your own libraries in `.mpy` format using [`mpy-cross`](https://adafruit-circuit-python.s3.amazonaws.com/index.html?prefix=bin/mpy-cross/)
 
 When using VS Code, install dependencies you are using:
@@ -80,6 +94,8 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## See Also
 
-- [Keys and Events](https://learn.adafruit.com/key-pad-matrix-scanning-in-circuitpython/keys-one-key-per-pin)
+- [Keys and Events explained and example code](https://learn.adafruit.com/key-pad-matrix-scanning-in-circuitpython/keys-one-key-per-pin)
 - [Learn Adafruit019](https://learn.adafruit.com/adabox019)
 - [Macropad hotkeys](https://learn.adafruit.com/macropad-hotkeys) project
+- [Human Interface Device (HID) devices](https://learn.adafruit.com/customizing-usb-devices-in-circuitpython/hid-devices)
+- [CircuitPython_MacroPad](https://github.com/adafruit/Adafruit_CircuitPython_MacroPad) examples and [documentation with API reference](https://circuitpython.readthedocs.io/projects/macropad/en/latest/#).

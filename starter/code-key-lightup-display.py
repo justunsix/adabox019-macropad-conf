@@ -36,11 +36,13 @@ keys = keypad.Keys(
 neopixels = neopixel.NeoPixel(board.NEOPIXEL, 12, brightness=0.4)
 
 # Create an event we will reuse over and over to avoid generating
-# new event objects for garbage collection
+# new event objects for garbage collection / storage allocation
 event = keypad.Event()
 
 while True:
     # event = keys.events.get(), not required with reused event above
+    # In the background, polling of events in done every 20 miliseconds 
+    # and can be configured
     if keys.events.get_into(event):
         # A key transition occurred.
         print(event)
