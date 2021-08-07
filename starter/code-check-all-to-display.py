@@ -12,7 +12,7 @@ while True:
     key_event = macropad.keys.events.get()
     if key_event and key_event.pressed:
         text_lines[0].text = "Key {} pressed!".format(key_event.key_number)
-    text_lines[1].text = "Rotary encorder {}".format(macropad.encoder)
-    text_lines[2].text = "Encorder switch {}".format(macropad.encoder_switch)
+    text_lines[1].text = "Rotary encoder {}".format(macropad.encoder)
+    text_lines[2].text = "Encoder switch: {}".format(macropad.encoder_switch)
     text_lines.show()
 
