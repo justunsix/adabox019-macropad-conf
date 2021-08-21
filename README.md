@@ -28,7 +28,7 @@ or
 
 #### Manual library install
 
-Install the [Adafruit CircuitPython Library Bundle](https://circuitpython.org/libraries) 7.x. Unzip the bundle and copy the library files you need to the `lib` folder in the `CIRCUITPY` drive. Use these libraries:
+Install the [Adafruit CircuitPython Library Bundle](https://circuitpython.org/libraries) 7.x. Unzip the bundle and copy the library files you need to the `lib` folder in the `CIRCUITPY` drive. Using the library bundle or `circup`, install these libraries on the `CIRUITPY` drive:
 
 - `simpleio.mpy`
 - `neopixel.mpy`
@@ -43,7 +43,7 @@ Install the [Adafruit CircuitPython Library Bundle](https://circuitpython.org/li
   - `adafruit_led_animation`
 - Create your own libraries in `.mpy` format using [`mpy-cross`](https://adafruit-circuit-python.s3.amazonaws.com/index.html?prefix=bin/mpy-cross/)
 
-When using VS Code, install dependencies you are using:
+When using VS Code, install dependencies you are using, for example:
 
 ```sh
 pip3 install adafruit-circuitpython-simpleio
@@ -97,5 +97,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 - [Keys and Events explained and example code](https://learn.adafruit.com/key-pad-matrix-scanning-in-circuitpython/keys-one-key-per-pin)
 - [Learn Adafruit019](https://learn.adafruit.com/adabox019)
 - [Macropad hotkeys](https://learn.adafruit.com/macropad-hotkeys) project
-- [Human Interface Device (HID) devices](https://learn.adafruit.com/customizing-usb-devices-in-circuitpython/hid-devices)
+  - [Human Interface Device (HID) devices](https://learn.adafruit.com/customizing-usb-devices-in-circuitpython/hid-devices)
+  - CircuitPython's standard USB keyboard descriptor only supports pressing up to 6 non-modifier keys at a time, called 6-Key Rollover or 6KRO. [An example](https://learn.adafruit.com/customizing-usb-devices-in-circuitpython/n-key-rollover-nkro-hid-device) on how you can use an alternate USB descriptor to enable unlimited rollover (also called N-Key Rollover or NKRO) using the Adafruit MacroPad.
 - [CircuitPython_MacroPad](https://github.com/adafruit/Adafruit_CircuitPython_MacroPad) examples and [documentation with API reference](https://circuitpython.readthedocs.io/projects/macropad/en/latest/#).
