@@ -100,3 +100,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
   - [Human Interface Device (HID) devices](https://learn.adafruit.com/customizing-usb-devices-in-circuitpython/hid-devices)
   - CircuitPython's standard USB keyboard descriptor only supports pressing up to 6 non-modifier keys at a time, called 6-Key Rollover or 6KRO. [An example](https://learn.adafruit.com/customizing-usb-devices-in-circuitpython/n-key-rollover-nkro-hid-device) on how you can use an alternate USB descriptor to enable unlimited rollover (also called N-Key Rollover or NKRO) using the Adafruit MacroPad.
 - [CircuitPython_MacroPad](https://github.com/adafruit/Adafruit_CircuitPython_MacroPad) examples and [documentation with API reference](https://circuitpython.readthedocs.io/projects/macropad/en/latest/#).
+- [Curated list of apps macros, 3d printed cases, and guides for the Adafruit CircuitPython rp2040 Macropad](https://github.com/prcutler/awesome-macropad)
