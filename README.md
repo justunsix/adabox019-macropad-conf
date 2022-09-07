@@ -7,7 +7,6 @@ Test different uses for the Macropad
 - [CircuitPython](https://circuitpython.org/board/adafruit_macropad_rp2040/) version 7.0.0-alpha.5
 - [Adabox019](https://www.adafruit.com/adabox019)
 
-<!-- GETTING STARTED -->
 ## Getting Started
 
 ### Prerequisites
