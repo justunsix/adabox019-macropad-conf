@@ -89,7 +89,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-[JustinTungOnline on GitHub](https://github.com/justunsix/)
+[justunsix on GitHub](https://github.com/justunsix/)
 
 ## See Also
 
