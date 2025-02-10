@@ -4,7 +4,8 @@ Test different uses for the Macropad
 
 ## Built With
 
-- [CircuitPython](https://circuitpython.org/board/adafruit_macropad_rp2040/) version 7.0.0-alpha.5
+- [CircuitPython](https://circuitpython.org/board/adafruit_macropad_rp2040/)
+  version 9.2.4 or latest stable version
 - [Adabox019](https://www.adafruit.com/adabox019)
 
 ## Getting Started
@@ -15,19 +16,39 @@ Test different uses for the Macropad
 
 or
 
-- [VS Code with CircuitPython extension](https://marketplace.visualstudio.com/items?itemName=joedevivo.vscode-circuitpython). Use the update bundle and reload project libraries to get code completion in VS Code.
+- [VS Code with CircuitPython extension](https://marketplace.visualstudio.com/items?itemName=joedevivo.vscode-circuitpython).
+  Use the update bundle and reload
+  project libraries to get code completion in VS Code.
 
 ### Installation
 
-[Load CircuitPython](https://learn.adafruit.com/adafruit-macropad-rp2040/circuitpython) to the board
+[Load CircuitPython](https://learn.adafruit.com/adafruit-macropad-rp2040/circuitpython)
+to the board
 
 #### Library manager
 
-- This loading installs CircuitPython into the `CIRCUITPY` drive and create directories like `lib` to store libraries OR follow library instructions using [`circup`](https://github.com/adafruit/circup), `circup install`, and `circup update` at [CircuitPython_MacroPad](https://github.com/adafruit/Adafruit_CircuitPython_MacroPad).
+- This loading installs CircuitPython into the `CIRCUITPY`
+  drive and create directories like `lib` to
+  store libraries
+
+OR
+
+- Follow library instructions using
+  [`circup`](https://github.com/adafruit/circup)
+  at [CircuitPython_MacroPad](https://github.com/adafruit/Adafruit_CircuitPython_MacroPad).
+
+  ```shell
+  pip install circup
+  circup install adaafruit_macropad
+  circup update
+  ```
 
 #### Manual library install
 
-Install the [Adafruit CircuitPython Library Bundle](https://circuitpython.org/libraries) 7.x. Unzip the bundle and copy the library files you need to the `lib` folder in the `CIRCUITPY` drive. Using the library bundle or `circup`, install these libraries on the `CIRUITPY` drive:
+Install the [Adafruit CircuitPython Library Bundle](https://circuitpython.org/libraries)
+. Unzip the bundle and copy the library file
+you need to the `lib` folder in the `CIRCUITPY` drive. Using the
+library bundle or `circup`, install these libraries on the `CIRUITPY` drive:
 
 - `simpleio.mpy`
 - `neopixel.mpy`
@@ -35,7 +56,7 @@ Install the [Adafruit CircuitPython Library Bundle](https://circuitpython.org/li
 - `adafruit_debouncer.mpy`
 - `adafruit_pixelbuf.mpy`
 - folder and files:
-  - `adafruit_hid` 
+  - `adafruit_hid`
   - `adafruit_midi`
   - `adafruit_display_text`
   - `adafruit_displayio_layout`
@@ -49,9 +70,13 @@ pip3 install adafruit-circuitpython-simpleio
 
 ```
 
+When developing, can include the circuitpython stubs or source code for
+language server integration.
+
 ## Usage
 
-[Enter the REPL](https://learn.adafruit.com/adafruit-macropad-rp2040/the-repl) in Mu. Press `ctrl+c` to get the `>>>` prompt and use commands:
+[Enter the REPL](https://learn.adafruit.com/adafruit-macropad-rp2040/the-repl)
+in Mu. Press `ctrl+c` to get the `>>>` prompt and use commands:
 
 ```py
 # Check CircuitPython version and modules available
@@ -74,7 +99,8 @@ Press `ctrl+d` to return to the serial console to see output from your program.
 
 ### Restart fresh
 
- CircuitPython includes a built-in function to erase and reformat the filesystem. `CIRCUITPY` will be erased and reformatted.
+CircuitPython includes a built-in function to erase and reformat the file system.
+`CIRCUITPY` will be erased and reformatted.
 
 ```py
 import storage
@@ -82,11 +108,13 @@ storage.erase_filesystem()
 ```
 
 <!-- LICENSE -->
+
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
 <!-- CONTACT -->
+
 ## Contact
 
 [justunsix on GitHub](https://github.com/justunsix/)
@@ -97,6 +125,11 @@ Distributed under the MIT License. See `LICENSE` for more information.
 - [Learn Adafruit019](https://learn.adafruit.com/adabox019)
 - [Macropad hotkeys](https://learn.adafruit.com/macropad-hotkeys) project
   - [Human Interface Device (HID) devices](https://learn.adafruit.com/customizing-usb-devices-in-circuitpython/hid-devices)
-  - CircuitPython's standard USB keyboard descriptor only supports pressing up to 6 non-modifier keys at a time, called 6-Key Rollover or 6KRO. [An example](https://learn.adafruit.com/customizing-usb-devices-in-circuitpython/n-key-rollover-nkro-hid-device) on how you can use an alternate USB descriptor to enable unlimited rollover (also called N-Key Rollover or NKRO) using the Adafruit MacroPad.
-- [CircuitPython_MacroPad](https://github.com/adafruit/Adafruit_CircuitPython_MacroPad) examples and [documentation with API reference](https://circuitpython.readthedocs.io/projects/macropad/en/latest/#).
+  - CircuitPython's standard USB keyboard descriptor only supports pressing
+    up to 6 non-modifier keys at a time, called 6-Key Rollover or 6KRO.
+    [An example](https://learn.adafruit.com/customizing-usb-devices-in-circuitpython/n-key-rollover-nkro-hid-device)
+    on how you can use an alternate USB descriptor to enable unlimited
+    rollover (also called N-Key Rollover or NKRO) using the Adafruit MacroPad.
+- [CircuitPython_MacroPad](https://github.com/adafruit/Adafruit_CircuitPython_MacroPad)
+  examples and [documentation with API reference](https://circuitpython.readthedocs.io/projects/macropad/en/latest/#)
 - [Curated list of apps macros, 3d printed cases, and guides for the Adafruit CircuitPython rp2040 Macropad](https://github.com/prcutler/awesome-macropad)
